@@ -279,3 +279,33 @@ body{
 #gallery .card-title {
     margin-top: 0;
 }
+/*--contact--*/
+#contact {
+    background-color: #eae5db;
+    color:#997a20;
+    min-height:50vh;
+    font-family: Oswald, sans-serif;
+    padding-top: 20px;
+}
+#contact .heading .contact-shoutout {
+    text-align:center;
+}
+
+.contact-form{
+    background-color:#eae5db;
+    height:100%;
+    width:100%;
+}
+ #contact .comment-area {
+     height:100px;
+ }
+#contact .send-button {
+    background-color: #997a20;
+    border-color: #fff;
+}
+
+#contact .office-info {
+    padding: 20px;
+    text-align: center;
+    font-family: Oswald, sans-serif;
+}
