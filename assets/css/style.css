@@ -167,4 +167,13 @@ body{
     transition-timing-function: ease-in-out;
     width: 100px; 
 }
-/*----------------------End of Tour--*/
+/*--End of Tour--*/
+
+/*--Start of Footer--*/
+#footerdetails {
+    background-color: #997a20;
+    width:100%;
+    color:#fff;
+    padding-top: 20px;
+    font-style: italic;
+}
