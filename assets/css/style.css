@@ -255,3 +255,27 @@ body{
     height:70%;
     width:80%;
 }
+/*--gallery--*/
+#gallery {
+    margin: 10px 10px;
+}
+#gallery .heading{
+    background:#1950a8;
+    color:#fff;
+    padding: 10px;
+    font-family: Oswald, sans-serif;
+}
+#gallery .card-title{
+    font-family: Oswald, sans-serif;
+    text-align: center;
+}
+#gallery .card-columns {
+    padding-top: 10px;
+}
+
+#gallery .special {
+    padding: 0;
+}
+#gallery .card-title {
+    margin-top: 0;
+}
