@@ -179,7 +179,7 @@ body{
 }
 /*--End of Footer--*/
 
-/*--------------------Start of ABOUT --*/
+/*--Start of ABOUT --*/
 #generalgroup {
     background-color:#f4f4f4;
     color:#997a20;
@@ -234,4 +234,24 @@ body{
 #team-member .member-socials {
     padding: 5px;
     margin-top: auto;
+}
+/*--Buying New Album--*/
+#media .container-fluid {
+    padding: 10px;
+    background-color: #29a3a3;
+}
+    
+}
+#media h1{
+    font-family: Slabo-27;
+    font-weight: bold;
+    height:100%;
+}
+#media .albumvideo {
+    margin-top: 20px;
+    padding-top: 10px;
+}
+#media .listen-album {
+    height:70%;
+    width:80%;
 }
