@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald&display=swap:100,200,300,400,500,600,700');
-
+html {
+    position: relative;
+    min-height:100%;
+}
 body{
     height:100%;
     width:100%;
     margin:0px;
     padding: 0px;
+    margin-bottom: 60px;
 }
 
 .navbar {
@@ -170,12 +174,23 @@ body{
 /*--End of Tour--*/
 
 /*--Start of Footer--*/
-#footerdetails {
+.footer {
     background-color: #997a20;
-    width:100%;
-    color:#fff;
-    padding-top: 20px;
     font-style: italic;
+    position: absolute;
+    bottom:0;
+    left: 0;
+	right: 0;
+}
+#footer-details a:hover{
+    font-size: 20px;
+    font-weight:lighter;
+    color: #ff4d4d;
+    text-decoration: none;
+    transition-property: width;
+    transition-duration: 2s;
+    -moz-transition-timing-function: ease-in-out;
+    -webkit-transition-timing-function: ease-in-out;
 }
 /*--End of Footer--*/
 
@@ -241,7 +256,6 @@ body{
     background-color: #29a3a3;
 }
     
-}
 #media h1{
     font-family: Slabo-27;
     font-weight: bold;
@@ -283,7 +297,7 @@ body{
 #contact {
     background-color: #eae5db;
     color:#997a20;
-    min-height:50vh;
+    min-height:90vh;
     font-family: Oswald, sans-serif;
     padding-top: 20px;
 }
