@@ -8,7 +8,6 @@ body{
     width:100%;
     margin:0px;
     padding: 0px;
-    margin-bottom: 60px;
 }
 
 .navbar {
@@ -177,7 +176,7 @@ body{
 .footer {
     background-color: #997a20;
     font-style: italic;
-    position: absolute;
+    position: relative;
     bottom:0;
     left: 0;
 	right: 0;
@@ -250,32 +249,121 @@ body{
     padding: 5px;
     margin-top: auto;
 }
-/*--Buying New Album--*/
-#media .container-fluid {
-    padding: 10px;
-    background-color: #29a3a3;
+
+/*--Media--*/
+#media .main-container {
+ margin: 0;
+ padding: 0;
+ height:140vh;
+ background-color: #e8c75a;
+ position:relative;
 }
-    
-#media h1{
-    font-family: Slabo-27;
-    font-weight: bold;
+#media .newalbumrow {
+    background-color: #ffe170;
+    margin-left: 0;
+    margin-right: 0;
+    padding-bottom: 50px;
+    position:absolute;
+    left:0px;
+    top:100px;
+    bottom:100px;
+    right:0px;
+}
+.wrapper {
+    margin: 0 auto;
+    width:70%;
+}
+.videowrapper {
+    position:relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0px;
+}
+.videowrapper iframe {
+    position:absolute;
+    left: 0px;
+    right:0px;
+    bottom:0px;
+    top:0px;
     height:100%;
+    width:1005;
 }
-#media .albumvideo {
-    margin-top: 20px;
-    padding-top: 10px;
+#media .album-heading{
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #997a20;
 }
-#media .listen-album {
-    height:70%;
+#media .albums-wrapper {
+    height: 800px;
+}
+#media .button{
+    font-size: 15px;
+    color: #997a20;
+    text-decoration: none;
+    border: #997a20 1px solid;
+    padding: 5px 15px;
+}
+
+#media .button:hover {
+    background:#997a20;
+    color:#fff;
+    transition-property: width;
+    transition-duration: 1s;
+    -moz-transition-timing-function: ease-in-out;
+    -webkit-transition-timing-function: ease-in-out;
+}
+#media .albums-wrapper {
     width:80%;
+    margin: 40px 20px 0px;
+}
+#media .card-deck{
+    margin-right:0;
+    margin-left:0;
+}
+.buy-album{
+    font-size: 40px;
+    color: #997a20;
+    font-weight: 700;
+    font-family: Oswald, sans-serif;
+    line-height: 5px;
+}
+#media .button2{
+    font-size: 35px;
+    color: #e8c75a;
+    background-color: #fff;
+    text-decoration: none;
+    border: #fff 1px solid;
+    padding: 5px 15px;
+}
+
+#media .button2:hover {
+    background:#997a20;
+    color:#fff;
+    transition-property: width;
+    transition-duration: 1s;
+    -moz-transition-timing-function: ease-in-out;
+    -webkit-transition-timing-function: ease-in-out;
+}
+}
+/*--video --*/
+#video .videocontainer-fluid{
+    min-height:100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #ffe170;
+}
+#video .videocontainer{
+    min-height:100%;
+    margin: 0;
+    padding: 0;
 }
 /*--gallery--*/
 
 #gallery {
     background-color: #ffe170;
-    min-height:90vh;
-    padding-top: 50px;
-    margin: 0;
+    min-height:100vh;
 }
 #gallery .card-columns {
     max-width: 60rem;
