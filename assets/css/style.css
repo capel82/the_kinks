@@ -253,30 +253,19 @@ body{
 /*--Media--*/
 #media .main-container {
  margin: 0;
- padding: 0;
- height:140vh;
+ padding-top:20px;
+
+ min-height:140vh;
  background-color: #e8c75a;
- position:relative;
 }
-#media .newalbumrow {
-    background-color: #ffe170;
-    margin-left: 0;
+.newalbumrow {
     margin-right: 0;
-    padding-bottom: 50px;
-    position:absolute;
-    left:0px;
-    top:100px;
-    bottom:100px;
-    right:0px;
 }
-.wrapper {
-    margin: 0 auto;
-    width:70%;
-}
+
 .videowrapper {
     position:relative;
     padding-bottom: 56.25%;
-    padding-top: 25px;
+    padding-top: 10px;
     height: 0px;
 }
 .videowrapper iframe {
@@ -286,17 +275,11 @@ body{
     bottom:0px;
     top:0px;
     height:100%;
-    width:1005;
+    width:100%;
 }
-#media .album-heading{
-    font-size: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    color: #997a20;
-}
-#media .albums-wrapper {
-    height: 800px;
+#media .buy-album{
+    padding-top: 30px;
+    
 }
 #media .button{
     font-size: 15px;
@@ -314,23 +297,15 @@ body{
     -moz-transition-timing-function: ease-in-out;
     -webkit-transition-timing-function: ease-in-out;
 }
-#media .albums-wrapper {
-    width:80%;
-    margin: 40px 20px 0px;
-}
+
 #media .card-deck{
-    margin-right:0;
-    margin-left:0;
-}
-.buy-album{
-    font-size: 40px;
-    color: #997a20;
-    font-weight: 700;
-    font-family: Oswald, sans-serif;
-    line-height: 5px;
+    margin-right:auto;
+    margin-left:auto;
+    max-width:80%;
+    
 }
 #media .button2{
-    font-size: 25px;
+    font-size: 45px;
     color: #e8c75a;
     background-color: #fff;
     text-decoration: none;
@@ -345,8 +320,9 @@ body{
     transition-duration: 1s;
     -moz-transition-timing-function: ease-in-out;
     -webkit-transition-timing-function: ease-in-out;
+    width:250px;
 }
-}
+
 /*--video --*/
 #video .videocontainer-fluid{
     min-height:100vh;
