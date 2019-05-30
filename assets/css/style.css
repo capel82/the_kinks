@@ -27,7 +27,7 @@ body{
 
 /*--shoutout--*/
 #shoutout .jumbotron{
-    background-image:url("/assets/images/kinkgroupphoto.jpg");
+    background-image:url("../images/kinkgroupphoto.jpg");
     background-position:center;
     background-attachment: fixed;
     -webkit-background-size:cover;
@@ -144,21 +144,22 @@ body{
 }
 #tour .futuretour {
     text-align: center;
-    font-family: arial sans-serif;
+    font-family: Oswald sans-serif;
     font-weight: bold;
     padding-bottom: 20px;
 }
+
 .table.table-striped {
-    width:70%;
+    width:60%;
     margin: auto;
     background-color: #ccbc8f;
     text-align: center;
 }
 #tour .button{
-    font-size: 15px;
-    color: #fff;
+    font-size: 50px;
+    color: #000;
     text-decoration: none;
-    border: #fff 1px solid;
+    border: #000 1px solid;
     padding:5px 15px;
     border-radius: 5px;
 }
@@ -168,7 +169,7 @@ body{
     transition-property: width;
     transition-duration: 1s;
     transition-timing-function: ease-in-out;
-    width: 100px; 
+    width: 350px; 
 }
 /*--End of Tour--*/
 
@@ -245,11 +246,18 @@ body{
     height:300px;
 }
 
-#team-member .member-socials {
+.member-socials {
     padding: 5px;
     margin-top: auto;
 }
-
+.member-socials a:hover{
+    color: #ff4d4d;
+    text-decoration: none;
+    transition-property: width;
+    transition-duration: 2s;
+    -moz-transition-timing-function: ease-in-out;
+    -webkit-transition-timing-function: ease-in-out;
+}
 /*--Media--*/
 #media .main-container {
  margin: 0;
@@ -341,6 +349,7 @@ body{
     background-color: #ffe170;
     min-height:100vh;
 }
+
 #gallery .card-columns {
     max-width: 60rem;
 }
@@ -361,9 +370,7 @@ body{
     height:100%;
     width:100%;
 }
- #contact .comment-area {
-     height:100px;
- }
+ 
 #contact .send-button {
     background-color: #997a20;
     border-color: #fff;
