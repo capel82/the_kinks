@@ -11,7 +11,7 @@ The objectives of creating this webpages are:
 
 ### B. Wireframes
 
-[wireframe](Wireframes.xd)
+[wireframe](Wireframes(1).pdf)
 
 ### C. User Stories
 **Homepage**
