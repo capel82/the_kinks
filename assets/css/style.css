@@ -265,7 +265,7 @@ body{
 #media .main-container {
  margin: 0;
  padding-top:20px;
- background-color: #e8c75a;
+ background-color: #ffe170;
 }
 .newalbumrow {
     margin-right: 0;
@@ -355,12 +355,11 @@ body{
 }
 /*--contact--*/
 #contact {
+    background-color:#eae5db;
     color:#997a20;
     font-family: Oswald, sans-serif;
     padding-top: 20px;
-}
-.body-color-contact {
-    background-color: #eae5db;
+    min-height: 100vh;
 }
 .heading .contact-shoutout {
     text-align:center;
