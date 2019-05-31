@@ -3,7 +3,6 @@
 ## Introduction
 The aim of this project is to promote a 1960s rock band called The Kinks to gain more accessibility to fans around the world and  to increase the sales from their newest music album, future tours and private hires.  This is a static front-end web development incorporating skills learned from HTML and CSS3 taught by Code Institute.
 
-## UX
 ### A. Objectives
 The objectives of creating this webpages are:
 * to provide fans around the world with up-to-date information of their newest albums and future tours.  
@@ -132,12 +131,11 @@ Then I signed into Github account and clicked on the **repository** with the nam
 
 This showed the files, images, readme and assets.  
 
-I clicked on the **Settings** button that brought me to **Github Pages**.  As I scrolled down, I can see **Master branch** under **source** and clicked on it to refresh and deploy.  
-Lastly, I copied the link for the deployed website.
+The current website is staged on Github pages.
 
 ### G.Credits
 
-a. **Contents:**The contents about the band information and members profiles were taken from [Wikipedia](https://en.wikipedia.org/wiki/Main_Page) websites.
+a. **Contents:** The contents about the band information and members profiles were taken from [Wikipedia](https://en.wikipedia.org/wiki/Main_Page) websites.
 https://en.wikipedia.org/wiki/The_Kinks
 https://en.wikipedia.org/wiki/Ray_Davies
 https://en.wikipedia.org/wiki/Dave_Davies
