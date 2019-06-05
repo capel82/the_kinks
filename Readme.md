@@ -140,15 +140,20 @@ The current website is staged on Github pages.
 ### H.Credits
 
 a. **Contents:** The contents about the band information and members profiles were taken from [Wikipedia](https://en.wikipedia.org/wiki/Main_Page) websites.
+
 https://en.wikipedia.org/wiki/The_Kinks
+
 https://en.wikipedia.org/wiki/Ray_Davies
+
 https://en.wikipedia.org/wiki/Dave_Davies
+
 https://en.wikipedia.org/wiki/Mick_Avory
+
 https://en.wikipedia.org/wiki/Pete_Quaife
 
 b. **Photos used:**  The photos used were taken from several sites as below:
 
-*1.Wilkipedia :*
+*1.Wikipedia :*
 
 https://en.wikipedia.org/wiki/The_Kinks
 
