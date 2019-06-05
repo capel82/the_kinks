@@ -210,6 +210,9 @@ c. **Musics embedded:**
 
 [Spotify](http://www.spotify.com)
 
+d. codes used for iFrames resizing taken from Youtube channel created by *mmtuts* on lesson "16: How to Create HTML5 Videos and Embed Videos | Learn HTML and CSS | HTML Tutorial | Basics of CSS" 
+at [Youtube] (https://www.youtube.com/watch?v=OOy764mDtiA)
+
 ### I. Acknowledgement
 A special thanks to my mentor **Maranatha Ilesanmi** who has very kindly encouraged, guided and taught me with so much patience towards me in finishing this first milestone project.
 
